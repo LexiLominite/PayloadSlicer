@@ -11,7 +11,7 @@ def main():
 
     # Print the payload in chunks
     for i in range(0, len(payload), n):
-        print("Str = Str " + '"' + payload[i:i+n] + '"')
+        print("Str = Str + " + '"' + payload[i:i+n] + '"')
 
 if __name__ == "__main__":
     main()
